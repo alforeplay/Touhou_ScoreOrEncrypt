@@ -29,4 +29,14 @@
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainThread.resx">
+      <Filter>리소스 파일</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="E:\Users\Administrator\Documents\Visual Studio 2017\Projects\Touhou_ScoreOrEncrypt\Touhou_ScoreOrEncrypt\th06_05.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
 </Project>

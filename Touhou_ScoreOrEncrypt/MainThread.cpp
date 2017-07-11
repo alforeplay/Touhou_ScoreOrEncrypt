@@ -15,7 +15,7 @@ const wchar_t *nameOfProcess = L"th06e.exe";
 
 LPCVOID MemoryAddress = (LPCVOID)0x0069BCA0;
 //Memory Address of Score
-
+/*
 //BitConverter.toInt32
 template <typename IntegerType>
 IntegerType bitsToInt(IntegerType& result, const unsigned char* bits, bool little_endian = true)
@@ -30,6 +30,7 @@ IntegerType bitsToInt(IntegerType& result, const unsigned char* bits, bool littl
 	return result;
 }
 //End of BitConverter Sample
+*/
 
 //ProcessId Finder
 DWORD FindProcessId(const std::wstring& processName)
@@ -96,21 +97,16 @@ int labeloutput(System::Windows::Forms::Label^ somelabel, String^ output)
 
 [STAThreadAttribute]
 void Main(array<String^>^ args) {
+
+
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	Touhou_ScoreOrEncrypt::MainThread form;
 	Application::Run(%form);
 
-	while (true)
-	{
-		if (IsProcessRunning)
-		{
+	
 
-		}
-		else {
 
-		}
-	}
 	
 }
 
